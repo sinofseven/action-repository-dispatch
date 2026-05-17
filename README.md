@@ -5,7 +5,7 @@ A GitHub Actions action that sends a [`repository_dispatch`](https://docs.github
 ## Usage
 
 ```yaml
-- uses: sinofseven/action-repository-dispatch@v1
+- uses: sinofseven/action-repository-dispatch@v1.0.1
   with:
     target_repo: org/target-repo
     event_type: my-event
@@ -32,7 +32,7 @@ When using a fine-grained PAT, the following permission is required on the targe
 ### Passing a payload
 
 ```yaml
-- uses: sinofseven/action-repository-dispatch@v1.0.0
+- uses: sinofseven/action-repository-dispatch@v1.0.1
   with:
     target_repo: org/target-repo
     event_type: deploy
